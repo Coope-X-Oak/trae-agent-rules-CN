@@ -7,5 +7,6 @@ STEPS:Local(Init/Ignore)->Remote(Create/Link)->Push(Push)->Maintain(Branch/PR)->
 MUST:Complete README and LICENSE
 MUST:Strictly configure .gitignore
 REQUIRED:Semantic Versioning + Standard Commits
+MUST:Check for unsaved files before push (prompt to save)
 NEVER:Commit Secrets or env configs
 CMD:git init && gh repo create

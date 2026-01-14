@@ -1,26 +1,29 @@
 # Trae Agent Rules (Learning Edition)
 
-这是一个关于 Trae IDE 智能体规则配置的学习项目，旨在通过标准化、结构化的规则定义，提升 AI 辅助编程的效率与准确性。
+这是一个关于 Trae IDE 智能体规则配置的学习项目。简单来说，我正在尝试通过一套标准化、结构化的规则定义，让 AI 辅助编程变得更聪明、更顺手。
 
 ## ⚠️ 声明 (Disclaimer)
 
-本项目是我 ([@Cooper-X-Oak](https://github.com/Cooper-X-Oak/)) 的学习之作。内容深受开源社区 Agent Rules 相关项目的启发，在此基础上进行了重构、汉化和定制，以适应 Trae IDE 的工作流。
+本项目是我 ([@Cooper-X-Oak](https://github.com/Cooper-X-Oak/)) 的学习之作。内容深受开源社区 Agent Rules 相关项目的启发，我在此基础上稍微折腾了一下——进行了重构、汉化和定制，主要是为了更好地适应 Trae IDE 的工作流。
 
 ## ✨ 项目亮点 (Highlights)
 
-本项目对 Agent Rules 进行了深度的标准化和结构化改造：
+我对 Agent Rules 做了一些深度的改造，其中最核心的哲学是：
 
-1.  **极致精简的规则格式**
-    *   **Token 最大化利用**：采用 `Key:Value` 键值对格式，摒弃冗长描述。
-    *   **强指令约束**：使用 `MUST`, `NEVER`, `REQUIRED` 等关键词，降低歧义。
+1.  **自我指向的递归进化 (Self-Referential Evolution)**
+    *   **这事儿挺有意思的**：我正在构建一个“自我指向”的文档系统。简单说，就是**我正在利用这套规则系统来纠正和完善这套规则系统本身**。
+    *   就像是编程里的“自举” (Bootstrapping)，我定义的规则（比如 `RULEOFRULES`）反过来约束我如何编写新的规则。这不仅仅是一堆死板的文档，而是一个正在尝试自我完善的“规则生命体”。
+    *   当然，落实到细节上，我们依然保持了**极致精简**：
+        *   **Token 能省则省**：全用 `Key:Value` 键值对，摒弃那些花里胡哨的长篇大论。
+        *   **有话直说**：`MUST`, `NEVER` 直接怼上去，减少歧义，AI 听了都说好。
 
-2.  **智能生效模式 (Smart Triggering)**
-    *   **`alwaysApply: true`**: 全局生效（如中文交互规范）。
-    *   **`globs: "*.md"`**: 基于文件路径自动匹配。
-    *   **`description: "..."`**: 基于语义场景智能触发。
+2.  **更聪明的生效模式 (Smart Triggering)**
+    *   **`alwaysApply: true`**: 全局都管用（比如那个必须讲中文的规范）。
+    *   **`globs: "*.md"`**: 看到特定文件才激活，不该管的时候绝不插手。
+    *   **`description: "..."`**: 只有你聊到相关话题（比如修Bug）时，专家才会现身。
 
-3.  **标准化分类命名 (Standardized Categories)**
-    *   所有规则文件采用 `Category-功能名称.md` 格式，分类清晰（Core/Docs/Tech/Tools）。
+3.  **治愈强迫症的分类 (Standardized Categories)**
+    *   所有文件都按 `Category-功能名称.md` 排好了，Global/Core/Docs/Tech/Tools 分得清清楚楚，看着就舒服。
 
 ## 📂 目录结构
 

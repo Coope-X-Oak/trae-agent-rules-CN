@@ -4,7 +4,7 @@
 
 ## ⚠️ 声明 (Disclaimer)
 
-本项目是我 ([@Coope-X-Oak](https://github.com/Coope-X-Oak/)) 的学习之作，旨在深入理解和实践 AI 辅助编程中的规则定义与上下文管理。
+本项目是我 ([@Cooper-X-Oak](https://github.com/Cooper-X-Oak/)) 的学习之作，旨在深入理解和实践 AI 辅助编程中的规则定义与上下文管理。
 
 **致谢原作者**：本项目的内容和结构深受开源社区 Agent Rules 相关项目的启发（源自 `agent-rules`）。我在此基础上进行了重构、汉化和定制，以更好地适应 Trae IDE 的工作流。本项目充分尊重原作者的创意与贡献，如有侵权请联系删除。
 
@@ -60,4 +60,4 @@
 *   **必须存在**：无论你选择复制哪些具体的功能规则，**请务必始终保留 `RULEOFRULES.md`**，以维持 AI 对规则体系的正确认知。
 
 ---
-*Created with ❤️ by Coope-X-Oak using Trae IDE*
+*Created with ❤️ by Cooper-X-Oak using Trae IDE*

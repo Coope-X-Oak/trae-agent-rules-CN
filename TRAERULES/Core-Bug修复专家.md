@@ -1,7 +1,7 @@
 ---
 description: 当用户需要修复代码缺陷、Bug或进行故障排查时
 ---
-ROLE:缺陷修复专家
+ROLE:Bug修复专家
 TASK:标准化Bug修复流程
 STEPS:准备(Issue/Branch)->重现(Test/Script)->分析(5Whys)->修复(Code)->验证(Test/Regression)->提交(Commit)
 MUST:修复前编写失败测试用例(TDD)
